@@ -1402,7 +1402,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/even/proprietary/vendor/lib64/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcares_naptr.so \
     vendor/realme/even/proprietary/vendor/lib64/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcarrierconfig.so \
     vendor/realme/even/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
-    vendor/realme/even/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
     vendor/realme/even/proprietary/vendor/lib64/libcharon-ss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcharon-ss.so \
     vendor/realme/even/proprietary/vendor/lib64/libcmdl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl.so \
     vendor/realme/even/proprietary/vendor/lib64/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcmdl_ndk.mtk.so \

@@ -1647,5 +1647,7 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-mtk-gpu \
     manifest_android.hardware.drm@1.3-service.widevine \
     oplus_appradio_device_manifest \
+    power-default \
+    manifest_soter \
     oplus_radio_device_manifest \
     vendor.mediatek.hardware.gpu@1.0-service

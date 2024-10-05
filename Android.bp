@@ -68,3 +68,29 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
+
+// Android.bp for VINTF files
+
+// Include the manifest.xml for VINTF
+prebuilt_etc_xml {
+     name: "vendor_manifest",
+    owner: "realme",
+    src: "proprietary/vendor/etc/vintf/manifest.xml",
+    filename_from_src: true,
+    sub_dir: "vintf",
+    relative_install_path: "etc",
+    filename: "manifest.xml",
+    soc_specific: true,
+}
+
+// Include the compatibility_matrix.xml for VINTF
+prebuilt_etc_xml {
+    name: "vendor_compatibility_matrix",
+    owner: "realme",
+    src: "proprietary/vendor/etc/vintf/compatibility_matrix.xml",
+    filename_from_src: true,
+    sub_dir: "vintf",
+    relative_install_path: "etc",
+    filename: "compatibility_matrix.xml",
+    soc_specific: true,
+}
